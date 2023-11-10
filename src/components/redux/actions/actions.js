@@ -20,9 +20,6 @@ export const setPhoto = (data) => {
 }
 
 export const setAuthInfo = (data) => {
-    console.log('!!!!!!!')
-    console.log(data)
-    console.log('!!!!!!!')
     return {
         type : 'SET_AUTH',
         payload : data
